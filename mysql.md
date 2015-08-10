@@ -1,6 +1,6 @@
-## MySQL  
+# MySQL  
 
-### 安装
+## 安装
 
 我们将使用 Homebrew 安装 [MySQL](http://www.mysql.com/)，同时也会安装 MySQL 的相关文件。
 
@@ -19,7 +19,7 @@ $ mkdir /usr/local/var
 $ mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp  
 ```  
 
-### 使用
+## 使用
 
 启动 MySQL 服务，运行 mysql.server
   

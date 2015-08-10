@@ -1,4 +1,4 @@
-## XCode  
+# XCode  
 
 从 App store 或苹果开发者网站安装 [Xcode](https://developer.apple.com/xcode/) 。
 

@@ -1,12 +1,10 @@
-## iTerm2
+# iTerm2
 
-作为一名开发者，我们常常花上很多时间在终端 上，如同武士的剑，一出手便知高低。所以让我们安装 Mac 上最强大的终端 [iTerm2](http://www.iterm2.com/) 吧！写码除虫，居家必备。
+作为一名开发者，我们常常花上很多时间在终端上，如同武士的剑，一出手便知高低。所以让我们安装 Mac 上最强大的终端 [iTerm2](http://www.iterm2.com/) 吧！写码除虫，居家必备。
 
 在 Finder 中，将 iTerm 拖拽进入 Application 文件夹中。然后，你可以在 Launchpad 中启动 iTerm。
 
-### 颜色和字体设置
-
-
+## 颜色和字体设置
 
 - 在 Keys -> Hotkey 中设置 command + option + i 快速显示和隐藏 iTerm
 - 在 Profiles -> Default -> Check silence bell
@@ -18,7 +16,7 @@
   
 ## Zsh  
 
-我们将安装 zsh ，其拓展功能和主题将由 oh-my-zsh 提供。其中Env.sh 文件用于维护别名（aliases），输出（exports）和路径改变（path changes）等等，以免影响 ~/.zshrc。
+我们将安装 zsh ，其拓展功能和主题将由 oh-my-zsh 提供。其中 Env.sh 文件用于维护别名（aliases），输出（exports）和路径改变（path changes）等等，以免影响 `~/.zshrc`。
 
 ### Zsh
 
@@ -43,7 +41,7 @@
     plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)  
 ```  
 
-用文本编辑器或 vi 打开 ~/Projects/config/env.sh 进行以下编辑:
+用文本编辑器或 vi 打开 `~/Projects/config/env.sh` 进行以下编辑:
   
 ```
     #!/bin/zsh

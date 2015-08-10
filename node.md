@@ -1,4 +1,4 @@
-## Node.js  
+# Node.js  
 
 使用 Homebrew 安装 [Node.js](http://nodejs.org/):
   
@@ -18,7 +18,7 @@ $ npm install -g grunt-cli
 $ npm install -g gulp  
 ```  
 
-### Npm 使用
+## Npm 使用
 
 安装包:
   

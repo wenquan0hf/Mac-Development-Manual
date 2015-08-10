@@ -1,8 +1,8 @@
-## Homebrew  
+# Homebrew  
 
 包管理工具可以让你安装和更新程序变得更方便，目前在 OS X 系统中最受欢迎的包管理工具是 Homebrew.
 
-### 安装
+## 安装
 
 在安装 Homebrew 之前，需要将 Xcode Command Line Tools 安装完成，这样你就可以使用基于 Xcode Command Line Tools 编译的 Homebrew。
 
@@ -12,7 +12,7 @@
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
 ```  
 
-紧接着，我们需要做一件事让通过 Hombrew 安装的程序的启动链接 (在 /usr/local/bin中）可以直接运行，无需将完整路径写出。通过以下命令将 /usr/local/bin 添加至 $PATH 环境变量中:
+紧接着，我们需要做一件事让通过 Hombrew 安装的程序的启动链接 (在 /usr/local/bin 中）可以直接运行，无需将完整路径写出。通过以下命令将 /usr/local/bin 添加至 $PATH 环境变量中:
   
 ```
 $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile  
@@ -70,7 +70,7 @@ $ brew list --versions
 
 你已经感受到了使用 Homebrew 安装命令行程序的便利。那么接下来，我们将通过 Homebrew Cask 优雅、简单、快速的安装和管理 OS X 图形界面程序，比如 Google Chrome 和 Dropbox。
 
-### 安装
+## 安装
 
 安装 Homebrew-cask 是如此的简单直接，运行以下命令即可完成：
   
